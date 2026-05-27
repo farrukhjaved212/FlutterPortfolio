@@ -1895,8 +1895,30 @@
       background: rgba(255, 107, 53, .08)
     }
 
+    @media (hover: none) and (pointer: coarse) {
+
+      #cur,
+      #cur2 {
+        display: none !important;
+      }
+
+      body {
+        cursor: auto;
+      }
+    }
+
     /* RESPONSIVE */
     @media(max-width:900px) {
+
+      #cur,
+      #cur2 {
+        display: none !important;
+      }
+
+      body {
+        cursor: auto;
+      }
+
       nav {
         padding: 1rem 1.5rem
       }
